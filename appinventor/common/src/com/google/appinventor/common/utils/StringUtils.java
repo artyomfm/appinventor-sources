@@ -159,7 +159,7 @@ public final class StringUtils {
    * @return  package name
    */
   public static String userToPackageName(String email) {
-    StringBuilder sb = new StringBuilder("appinventor.ai_");
+    StringBuilder sb = new StringBuilder("");
     int length = email.length();
     for (int i = 0; i < length; i++) {
       char ch = email.charAt(i);
